@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Araras - Acervo Animal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0e4d7;
+        }
+
+        /* Barra de navegação */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #d98e04;
+            padding: 30px 20px;
+            color: white;
+        }
+
+        .search-container {
+            position: relative;
+        }
+
+        .navbar input[type="text"] {
+            padding: 8px;
+            border-radius: 4px;
+            border: none;
+            width: 400px;
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: #d98e04;
+        }
+
+        .user-options {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-options a {
+            color: white;
+            margin: 0 5px;
+            text-decoration: none;
+        }
+
+        /* Menu de categorias */
+        .categories {
+            display: flex;
+            justify-content: center;
+            background-color: #d98e04;
+            padding: 30px;
+            position: relative;
+            z-index: 3;
+        }
+
+        .categories a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            position: relative;
+        }
+
+/* Estilos do título da página */
+        .title {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 48px;
+            color: #d98e04;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            margin-left: 100px; /* Ajuste esse valor para mover o título mais para a direita */
+        }
+
+        /* Estilos da galeria de araras */
+        .aras-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .ara-item {
+            text-align: center;
+            margin: 30px;
+            width: 220px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .ara-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .ara-item p {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Estilos para mover os itens */
+        .mover-direita {
+            margin-left: -120px; /* Ajuste o valor para o quanto quer mover */
+        }
+
+        .mover-esquerda {
+            margin-right: 1090px; /* Ajuste o valor para o quanto quer mover */
+        }
+
+        /* Botão de Voltar */
+        .back-button {
+            text-align: center;
+            margin-left: -1780px;
+margin-top: 20px;
+        }
+
+        .back-button a {
+            text-decoration: none;
+            color: #d98e04;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <header>
+        <div class="navbar">
+            <div class="logo">www.url.com</div>
+            <div class="search-container">
+                <input type="text" placeholder="Pesquise um animal">
+                <span class="search-icon">🔍</span>
+            </div>
+            <div class="user-options">
+                <a href="#">Entrar</a> | <a href="#">Cadastrar-se</a>
+                <span class="user-icon">👤</span>
+            </div>
+        </div>
+
+        <!-- Menu de categorias -->
+        <nav class="categories">
+            <a href="#">Mamíferos</a>
+            <a href="#">Aves</a>
+            <a href="#">Répteis</a>
+            <a href="#">Anfíbios</a>
+            <a href="#">Peixes</a>
+            <a href="#">Insetos e aracnídeos</a>
+        </nav>
+    </header>
+
+    <!-- Botão de Voltar -->
+    <div class="back-button">
+        <a href="index.html">← VOLTAR</a>
+    </div>
+
+    <!-- Título principal da página -->
+    <h1 class="title">ARARAS</h1>
+
+    <!-- Seção de araras -->
+    <section class="aras-section">
+        <!-- Primeira linha de araras -->
+        <div class="ara-item">
+            <a href="arara azul.html">
+                <img src="1000_F_220061618_XTcbmqo5Cdp3UZz799pBZnEBERXqB4kY.jpg" alt="Arara Azul Grande">
+                <p>Arara-Azul-Grande</p>
+            </a>
+        </div>
+        <div class="ara-item">
+            <img src="Arara-Vermelha-4.jpg" alt="Arara Vermelha">
+            <p>Arara-Vermelha</p>
+        </div>
+        <div class="ara-item">
+            <img src="Arara-vermelha_(Ara_chloropterus)_-_também_chamada_arara-verde,_araracanga,_aracanga,_arara-macau,_ararapiranga_e_macau_-_exibe_suas_cores_vibrantes_no_Buraco_das_Araras,_.jpg" alt="Arara Macau">
+            <p>Arara Macau</p>
+        </div>
+        <div class="ara-item">
+            <img src="arara-actp-divulgacao-2-e1628261290449.jpg" alt="Ararinha Azul">
+            <p>Ararinha-Azul</p>
+        </div>
+        <div class="ara-item">
+            <img src="arara-caninde-1.jpg" alt="Arara Canindé">
+            <p>Arara-Canindé</p>
+        </div>
+        <div class="ara-item">
+            <img src="arara-azul-de-lear-1024x682-1.jpeg" alt="Arara Azul de Lear">
+            <p>Arara-Azul-de-Lear</p>
+        </div>
+
+        <!-- Segunda linha de araras alinhadas à esquerda -->
+        <div class="ara-item mover-direita">
+            <img src="Chestnut-fronted_Macaw_(Ara_severa)_-Southwicks_Zoo_c.jpg" alt="Maracanã Guaçu">
+            <p>Maracanã Guaçu</p>
+        </div>
+        <div class="ara-item mover-esquerda">
+            <img src="Maracana-Cuello-Dorado-I-25-08-2017.jpg" alt="Maracanã de Colar">
+            <p>Maracanã-de-Colar</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Acervo Animal. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
